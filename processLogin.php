@@ -46,5 +46,5 @@ if(!move_uploaded_file($tmpFile, $alamatFile)){
     "login_at" => date("Y-m-d H:i:s")
   ];
   header("Location: ./dashboard.php");
-
+  
 }
